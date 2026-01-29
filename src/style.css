@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/PricedownBl.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.glitch-natural {
+  color: black;
+  text-shadow: 1px 0 red, -1px 0 red, 0 1px red, 0 -1px red;
+  will-change: transform;
+}
+
+html,
+body {
+  font-family: "MyFont", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#canvas {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
